@@ -10,4 +10,6 @@ Type "copyright", "credits" or "license()" for more information.
 >>> request = urllib2.Request(url, data, headers)
 >>> response = urllib2.urlopen(request)
 >>> page = response.read()
->>> 
+>>> print page
+
+
