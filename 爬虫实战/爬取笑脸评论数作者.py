@@ -24,13 +24,18 @@ content_pattern = re.compile('<div class="content">.*?<span>(.*?)</span>', re.S)
 content_list = re.findall(content_pattern, html)
 for item in content_list:
     print item
-
+'''
 content_pattern = re.compile('<span class="stats-vote"><i class="number">(.*?)</i> .*?</span>', re.S)
 content_list = re.findall(content_pattern, html)
 for item in content_list:
     print item
 
 content_pattern = re.compile('<span class="stats-comments">.*?<i class="number">(.*?)</i>', re.S)
+content_list = re.findall(content_pattern, html)
+for item in content_list:
+    print item
+'''
+content_pattern = re.compile('<h2>(.*?)</h2>', re.S)
 content_list = re.findall(content_pattern, html)
 for item in content_list:
     print item
