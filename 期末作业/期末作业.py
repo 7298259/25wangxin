@@ -35,6 +35,7 @@ for item in all_list:
     print "Step number:" + item[3]
     print "Browse count:" + item[4]
     
+    
     print "-----------------"
 
     
